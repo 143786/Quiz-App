@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #085579;
+}
+
+.App {
+  background: #fff;
+  width: 80%;
+  max-width: 500px;
+  margin: 100px auto 0;
+  border-radius: 15px;
+  padding: 25px;
+}
+.App h1 {
+  font-size: 20px;
+  color: #093c8d;
+  font-weight: 500;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.quiz {
+  padding: 18px 0;
+}
+.quiz h2 {
+  font-size: 15px;
+  color: #093c8d;
+  font-weight: 500;
+}
+
+.btn {
+  background: #d7f4f4;
+  color: rgb(9, 6, 3);
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: left;
+}
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+#next-btn {
+  background: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  width: 140px;
+  border: 0;
+  padding: 10px;
+  margin: 18px auto 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
